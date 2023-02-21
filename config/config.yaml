@@ -1,0 +1,20 @@
+model: "debug" #运行模式 debug,release
+title: "go-mysql"
+version: "1.0"
+port: "3030"
+
+server:
+  jwt_key: "D6PoodeJWwyEH6X2"
+
+  mysql:
+    ip: "sjy_mysql"
+    port: "3306"
+    username: "root"
+    password: "root"
+    db: "go_mysql"
+
+  redis:
+    ip: "sjy_redis"
+    port: "6379"
+    db: 1
+    password: "exchange"
